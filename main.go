@@ -10,8 +10,9 @@ import (
 
 func main() {
     ctx := context.Background()
+    
     client, err := genai.NewClient(ctx, &genai.ClientConfig{
-        APIKey:  "AIzaSyBGf7Ga1eyy7t7AKiXJ0nOyPnFVzCcjtOU",
+        APIKey:  "key",
         Backend: genai.BackendGeminiAPI,
     })
 
